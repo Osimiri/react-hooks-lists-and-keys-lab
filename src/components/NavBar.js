@@ -4,7 +4,7 @@ const links = ["home", "about", "projects"];
 const linkBits = links.map((link) => {
   return <a key = {link} href={`#${link}`}>{link}</a>
   })
-console.log(linkBits);
+// console.log(linkBits);
  return (
   <nav>
     {linkBits} 
